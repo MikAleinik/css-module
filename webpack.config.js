@@ -40,6 +40,11 @@ const baseConfig = {
                 ],
             },
             {
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
+                exclude: /\.module.css$/i
+            },
+            {
                 test: /\.html$/i,
                 use: "html-loader"
             }
