@@ -59,3 +59,12 @@ declare module '*.module.css';
 Открыть команды редактора `CTRL+SHIFT+P`<br>
 Выполнить команду `TypeScript: Select TS Version` и выбрать `Use Workspace Version`<br>
 Выполнить команду `TypeScript: Restart TS Server`
+## Использование
+При установленном `css-loader@6.11.0` или более ранней версии
+```ts
+import style from './style.module.css';
+```
+При установленном `css-loader` более поздней версии
+```ts
+import * style from './style.module.css';
+```

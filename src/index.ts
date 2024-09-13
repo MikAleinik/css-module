@@ -1,5 +1,6 @@
 import './style.css';
 import style from './style.module.css';
+// import * style from './style.module.css';
 
 const labelFirst = document.createElement('label');
 labelFirst.textContent = 'labelFirst';
